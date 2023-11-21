@@ -74,7 +74,7 @@ export default {
 .eachProduct p {
   cursor: pointer;
   margin: 10px;
-  background-color: rgb(28, 28, 74);
+  background-color: #000;
   border-radius: 7px;
   padding: 30px;
   transition: 0.18s;

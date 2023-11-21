@@ -44,6 +44,7 @@ export default {
 }
 
 .catalog h1 {
+  font-family: "Montserrat-Regular";
   text-align: start;
   padding-left: 40px;
   margin-bottom: 60px;
@@ -52,6 +53,7 @@ export default {
 .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
   margin: 10px;
   font-size: 30px;
 }
@@ -60,23 +62,116 @@ export default {
   margin: 10px;
   color: #fff;
   text-decoration: none;
-  background-color: black;
-  border-radius: 7px;
+  background-color: #8a7547;
+  border-radius: 15px;
   padding: 30px;
-  transition: 0.18s;
-}
-
-.items a:hover {
-  background-size: 500px;
-  background-color: #fff;
-  color: #000;
+  height: 200px;
+  transition: 0.3s;
+  text-align: start;
+  font-family: "Montserrat-Regular";
 }
 
 .item1 {
-  background-position: bottom right;
+  background-image: url("../assets/images/Catalog/Beach-clothes.png");
+  background-position: 240px 60px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.item1:hover {
+  background-size: 230px;
+  background-position: 210px 30px;
+  background-color: #ba9e62;
 }
 
 .item2 {
-  background-position: bottom right;
+  background-image: url("../assets/images/Catalog/Board.png");
+  background-position: 250px 70px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.item2:hover {
+  background-size: 230px;
+  background-position: 220px 40px;
+  background-color: #ba9e62;
+}
+
+.item3 {
+  background-image: url("../assets/images/Catalog/Equipments.png");
+  background-position: 240px 60px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.item3:hover {
+  background-size: 230px;
+  background-position: 210px 30px;
+  background-color: #ba9e62;
+}
+
+.item4 {
+  background-image: url("../assets/images/Catalog/Flip-flops.png");
+  background-position: 250px 60px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.item4:hover {
+  background-size: 230px;
+  background-position: 200px 30px;
+  background-color: #ba9e62;
+}
+
+.item5 {
+  background-image: url("../assets/images/Catalog/Sunscreen.png");
+  background-position: 250px 60px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.item5:hover {
+  background-size: 230px;
+  background-position: 210px 30px;
+  background-color: #ba9e62;
+}
+
+.item6 {
+  background-image: url("../assets/images/Catalog/Sunglasses.png");
+  background-position: 230px 80px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.item6:hover {
+  background-size: 230px;
+  background-position: 200px 50px;
+  background-color: #ba9e62;
+}
+
+.item7 {
+  background-image: url("../assets/images/Catalog/Towel.png");
+  background-position: 260px 70px;
+  background-repeat: no-repeat;
+  background-size: 170px;
+}
+
+.item7:hover {
+  background-size: 200px;
+  background-position: 230px 40px;
+  background-color: #ba9e62;
+}
+
+.item8 {
+  background-image: url("../assets/images/Catalog/Beach-chair.png");
+  background-position: 250px 60px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.item8:hover {
+  background-size: 230px;
+  background-position: 210px 30px;
+  background-color: #ba9e62;
 }
 </style>
