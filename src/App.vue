@@ -2,7 +2,10 @@
   <div>
     <div class="background">
       <nav>
-        <h1>Sails Beach</h1>
+        <div class="logo">
+          <img src="./assets/images/Logo/Logo (2).png" />
+          <h1>Sails Beach</h1>
+        </div>
         <div>
           <router-link to="/">Home</router-link>
           <router-link to="/cart">Cart</router-link>
@@ -14,6 +17,19 @@
 </template>
 
 <style>
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("./assets/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("./assets/fonts/Montserrat-Thin.ttf");
+}
+
 * {
   margin: 0;
 }
@@ -23,7 +39,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-image: url("./assets/images/img-1.jpg");
+  background-image: url("./assets/images/background/img-1.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -43,9 +59,22 @@ nav {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-nav h1 {
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  background-color: #8a7547;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.logo h1 {
+  font-family: "Montserrat-Thin";
   padding-left: 30px;
   font-size: 50px;
+  color: #fff;
 }
 
 nav div {
