@@ -1,4 +1,4 @@
-# test
+# VueJS Beach E-commerce
 
 ## Project setup
 ```
