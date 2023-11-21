@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "title": "Bathing Suits",
+      "id": 1,
+      "products": [
+        { "title": "Blue Bikini", "id": 1 },
+        { "title": "Red Trunk", "id": 2 },
+        { "title": "Red Trunk", "id": 3 },
+        { "title": "Red Trunk", "id": 4 },
+        { "title": "Red Trunk", "id": 5 },
+        { "title": "Green May", "id": 6 }
+      ]
+    },
+    {
+      "title": "Boards",
+      "id": 2,
+      "products": [
+        { "title": "Orange Surf Board", "id": 1 },
+        { "title": "Green Surf Board", "id": 2 },
+        { "title": "Pink Stand-up Board", "id": 3 },
+        { "title": "Blue Stand-up Board", "id": 4 },
+        { "title": "Brown Bodyboard", "id": 5 }
+      ]
+    },
+    {
+      "title": "Equipments",
+      "id": 3
+    },
+    {
+      "title": "Flip-flops",
+      "id": 4
+    },
+    {
+      "title": "Sunscreen",
+      "id": 5
+    },
+    {
+      "title": "Sunglasses",
+      "id": 6
+    },
+    {
+      "title": "Towel",
+      "id": 7
+    },
+    {
+      "title": "Beach chair",
+      "id": 8
+    }
+  ]
+}

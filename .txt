@@ -1,0 +1,3 @@
+Criar um banco de dados Json, ou um local storage, e daí atraves do id que eu passar, acessar nesse local as outras informações. 
+Elas deve ser acessadas dentro da rota que elas serão utilizadas. então no meu caso elas serão acessadas dentro do CatalogDetails e
+na HomeView eu somente pegarei o id para passar no router-link
